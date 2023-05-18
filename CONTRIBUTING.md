@@ -51,6 +51,6 @@ To ensure a smooth and collaborative development experience, please follow the g
 
 Thank you for your contribution! Your help is greatly appreciated. Together, we can make CSS Generator an even more powerful tool for the web development community.
 
-If you have any questions or need assistance, please don't hesitate to reach out to our support team at support@cssgenerator.com.
+If you have any questions or need assistance, please don't hesitate to reach out to me at anshulsoni2022@gmail.com
 
 
