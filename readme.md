@@ -1,4 +1,4 @@
-## **Note- This website is currently is development phase so It have so much bugs and many feature which we have to update here so the main version of this website will be live soon and update in the readme file.**
+## **Note- This website is currently is development phase so It have so much bugs and many feature which we have to update here so the main version of this website will be live soon and updated in the readme file.**
 
 # CSS Generator Documentation
 
