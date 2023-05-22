@@ -65,8 +65,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum erat sit
 
 ## Customization
 
-CSS Generator provides customization options for each generator, allowing you to tailor the generated CSS styles according to your preferences. Refer to the documentation of each generator to learn about the available customization parameters and how to modify them.
-
+CSS Generator provides extensive customization options, allowing you to tailor the generated CSS styles to your specific requirements. With a wide range of customization parameters, you can create unique and visually appealing designs for your web projects. 
 ## Contributing
 
 We appreciate contributions from the open-source community to enhance CSS Generator. If you're interested
