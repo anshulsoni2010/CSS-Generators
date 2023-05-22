@@ -52,7 +52,7 @@
           <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
             data-target="#header-nav"><span></span><span></span><span></span></button>
 
-       
+
           <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
             <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/harnishdesign/"
                 target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
@@ -74,13 +74,14 @@
       <!-- Sidebar Navigation
 	============================ -->
       <div class="idocs-navigation bg-light">
-        <ul class="nav flex-column ">          <li class="nav-item"><a class="nav-link active" href="#idocs_start">Introduction</a>
+        <ul class="nav flex-column ">
+          <li class="nav-item"><a class="nav-link active" href="#docs_introduction">Introduction</a>
 
           <li class="nav-item"><a class="nav-link active" href="#idocs_start">Getting Started</a>
             <ul class="nav flex-column">
               <li class="nav-item"><a class="nav-link" href="#idocs_installation">Installation</a></li>
               <li class="nav-item"><a class="nav-link" href="#idocs_html_structure">Usage</a></li>
-            
+
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="#idocs_layout">Available CSS Generators</a>
@@ -93,14 +94,14 @@
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="#idocs_content">Customization</a>
-         
+
           </li>
           <li class="nav-item"><a class="nav-link" href="#idocs_components">Contributing</a>
-            
+
           </li>
           <li class="nav-item"><a class="nav-link" href="#idocs_support">Support</a></li>
           <li class="nav-item"><a class="nav-link" href="#idocs_templates">License</a></li>
-          
+
         </ul>
       </div>
 
@@ -131,105 +132,34 @@
               </div>
             </div>
 
-            <p class="alert alert-info">If you have any unresolved doubts or questions that are not addressed in this documentation, kindly email us at <a href="mailto:anshulsoni2022@gmail.com"> anshulsoni2022@gmail.com</a> We are here to assist you and provide further clarification.</p>
+            <p class="alert alert-info">If you have any unresolved doubts or questions that are not addressed in this
+              documentation, kindly email us at <a href="mailto:anshulsoni2022@gmail.com"> anshulsoni2022@gmail.com</a>
+              We are here to assist you and provide further clarification.</p>
           </section>
 
           <hr class="divider">
 
-          <!-- Installation
+          <!-- Introduction
 		============================ -->
-          <section id="idocs_installation">
-            <h2>Installation</h2>
-            <p class="lead">Follow the steps below to setup your site template:</p>
-            <ol>
-              <li>Unzip the downloaded package and open the <strong>/HTML</strong> folder to find all the template
-                files. You will need to upload these files to your hosting web server using FTP or localhost in order to
-                use it on your website.</li>
-              <li>Below is the folder structure and needs to be uploaded to your website or localhost root directory:
-                <ul>
-                  <li><code>HTML/assets</code> - Contains all of the assets referenced
-                    <ul>
-                      <li><code>HTML/css</code> - Stylesheet files</li>
-                      <li><code>HTML/images</code> - Images files</li>
-                      <li><code>HTML/js</code> - Javacript files</li>
-                      <li><code>HTML/sass</code> - Sass files</li>
-                      <li><code>HTML/vendor</code> – All external libs.</li>
-                    </ul>
-                  </li>
-                  <li><code>HTML/index.html</code> - Homepage
-                </ul>
-              </li>
-              <li>You should upload all or specific HTML files as per your need.</li>
-              <li>You are good to go for adding your content now!</li>
-            </ol>
+          <section id="docs_introduction">
+            <h2>Introduction</h2>
+            <p class="lead">Welcome to the CSS Generator Documentation! This comprehensive guide will walk you through
+              the features, customization options, and usage of CSS Generator. Whether you're a beginner or an
+              experienced developer, this documentation will provide you with the necessary information to harness the
+              power of CSS Generator and create stunning CSS styles for your web projects.</p> <br>
+            <h2>What is CSS Generator?
+            </h2>
+            <p>CSS Generator is an open-source project designed to simplify the process of creating CSS styles. It
+              provides a collection of CSS generators that enable you to generate code snippets for various CSS
+              properties and effects. With CSS Generator, you can easily customize colors, typography, box models,
+              gradients, transitions, animations, and more. Whether you're building a personal website, a web
+              application, or a UI component library, CSS Generator offers a wide range of options to create visually
+              appealing and responsive designs.</p>
           </section>
 
           <hr class="divider">
 
-          <!-- HTML Structure
-		============================ -->
-          <section id="idocs_html_structure">
-            <h2>HTML Structure</h2>
-            <p>iDocs follows a simple and easy to customize coding structure. Here is the sample for your reference:<br>
-              The template is based on <a class="ml-1" target="_blank" href="https://getbootstrap.com/"><i
-                  class="fas fa-external-link-alt"></i> Bootstrap Framework</a></p>
-            <pre><code class="html">&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
 
-&lt;!-- Your Title, Description, Stylesheets
-============================================= --&gt;
-
-&lt;/head&gt;
-
-&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.idocs-navigation&quot; data-offset=&quot;125&quot;&gt;
-
-&lt;!-- Document Wrapper   
-=============================== --&gt;
-&lt;div id=&quot;main-wrapper&quot;&gt; 
-  
-  &lt;!-- Header
-  ============================ --&gt;
-  &lt;header id=&quot;header&quot; class=&quot;sticky-top&quot;&gt;
-   ......
-  &lt;/header&gt;
-  &lt;!-- Header End --&gt; 
-  
-  &lt;!-- Content
-  ============================ --&gt;
-  &lt;div id=&quot;content&quot; role=&quot;main&quot;&gt; 
-    
-    &lt;!-- Sidebar Navigation
-    ============================ --&gt;
-    &lt;div class=&quot;idocs-navigation bg-light&quot;&gt;
-     .....
-    &lt;/div&gt;
-    
-    &lt;!-- Docs Content
-    ============================ --&gt;
-    &lt;div class=&quot;idocs-content&quot;&gt;
-      &lt;div class=&quot;container&quot;&gt;
-        .......
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-  &lt;!-- Content end --&gt; 
-  
-  &lt;!-- Footer --&gt;
-  &lt;footer id=&quot;footer&quot; class=&quot;section bg-dark footer-text-light&quot;&gt;
-    &lt;div class=&quot;container&quot;&gt; ...... &lt;/div&gt;
-  &lt;/footer&gt;
-  &lt;!-- Footer end --&gt; 
-  
-&lt;/div&gt;
-&lt;!-- Document Wrapper end --&gt; 
-
-&lt;!-- JavaScript --&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
-            <p class="alert alert-info">If you need more information, please visit bootstrap site: <a target="_blank"
-                href="https://getbootstrap.com/docs/4.4/layout/grid/">https://getbootstrap.com</a></p>
-          </section>
 
           <hr class="divider">
 
@@ -269,7 +199,8 @@
             </ul>
             <p>Simply add Color CSS file link it in the Document <code>&lt;head&gt;</code>.<br>
               Make sure you add the <code>css/color-blue.css</code> stylesheet in your head after the
-              <code>css/stylesheet.css</code> file linking from above mentioned 10 color css file.</p>
+              <code>css/stylesheet.css</code> file linking from above mentioned 10 color css file.
+            </p>
             <p><strong>For Example:</strong></p>
             <pre><code class="html">&lt;head&gt;
 &lt;!-- Stylesheet
@@ -872,7 +803,8 @@
 
             <h3 class="mt-5">Responsive Images</h3>
             <p>Images in Bootstrap are made responsive with <code>.img-fluid.</code> <code>max-width: 100%;</code> and
-              <code>height: auto;</code> are applied to the image so that it scales with the parent element.</p>
+              <code>height: auto;</code> are applied to the image so that it scales with the parent element.
+            </p>
             <p><img src="assets/images/screenshot.jpg" class="img-fluid" alt="Responsive image"></p>
             <pre><code class="html">&lt;img src=&quot;assets/images/screenshot.jpg&quot; class=&quot;img-fluid&quot; alt=&quot;Responsive image&quot;&gt;</code></pre>
 
@@ -907,7 +839,8 @@
             <h3 class="mt-5">Embedded Video</h3>
             <p>Wrap any embed like an <code>&lt;iframe&gt;</code> in a parent element with
               <code>.embed-responsive</code> and an aspect ratio. The <code>.embed-responsive-item</code> isn’t strictly
-              required, but we encourage it.</p>
+              required, but we encourage it.
+            </p>
             <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7e90gBu4pas"
                 allowfullscreen></iframe>
@@ -939,7 +872,8 @@
             <p class="mb-5">Setting up components is very easy. Here is the Some of shortcodes describe. also,
               <strong>iDocs</strong> is based on Bootstrap 4, so you can easily use Bootstrap's components: <a
                 class="ml-1" target="_blank" href="https://getbootstrap.com/docs/4.4/components/"><i
-                  class="fas fa-external-link-alt"></i> Bootstrap Documentation</a></p>
+                  class="fas fa-external-link-alt"></i> Bootstrap Documentation</a>
+            </p>
           </section>
 
           <!-- Accordion
